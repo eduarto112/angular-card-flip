@@ -1,0 +1,8 @@
+<div class="tp-box" [@flipState]="flip">
+  <div class="tp-box-side">
+    <ng-content select="[front]"></ng-content>
+  </div>
+  <div class="tp-box-side">
+    <ng-content select="[back]"></ng-content>
+  </div>
+</div>
